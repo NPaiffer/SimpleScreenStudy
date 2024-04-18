@@ -1,0 +1,46 @@
+/* RESPONSIVIDADES */
+
+/* LOGIN */
+
+.login-content {
+  width: 400px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+}
+
+.login-form button {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .login-content {
+    width: 80%;
+    max-width: 400px;
+  }
+}
+
+/* CADASTRO */
+
+.signup-content {
+  width: 400px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+}
+
+.signup-form button {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .signup-content {
+    width: 80%;
+    max-width: 400px;
+  }
+}
